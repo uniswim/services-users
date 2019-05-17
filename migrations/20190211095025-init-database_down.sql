@@ -1,0 +1,13 @@
+SET FOREIGN_KEY_CHECKS=0;
+DROP TABLE `utilisateur_abilite`;
+DROP TABLE `utilisateur_role`;
+DROP TABLE `utilisateur`;
+DROP TABLE `contact`;
+DROP TABLE `role_abilite`;
+DROP TABLE `role`;
+DROP TABLE `abilite`;
+DROP TABLE `client_application`;
+DROP TABLE `client_utilisateur`;
+DROP TABLE `application`;
+DROP TABLE `client`;
+SET FOREIGN_KEY_CHECKS=1;

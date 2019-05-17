@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "baseUrl": "./",
+        "rootDirs": ["src"],
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "module": "es6",
+        "moduleResolution": "node",
+        "target": "ES2017",
+        "allowJs": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "strictPropertyInitialization": false,
+        "strictNullChecks": false,
+        "paths": {
+            "@config/*":["src/config"],
+            "@database/*":["src/database"],
+            "@domain/*":["src/domain"],
+            "@logs/*":["src/logs"],
+            "@utils/*":["src/utils"],
+            "@cache/*":["src/cache"],
+            "@graphQL/*":["src/server/graphQL"],
+            "@errors/*":["src/server/errors"],
+            "typegql/*":["src/libs/typegql"],
+            "ntypegql":["src/libs/ntypegql"]
+        },
+        "lib": ["dom", "es2018", "esnext"]
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
